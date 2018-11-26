@@ -1,0 +1,22 @@
+language: node_js
+node_js:
+  - "8"
+cache:
+  directories:
+    - "node_modules"
+install:
+  - npm install
+script:
+  - npm run travis
+deploy:
+  provider: pages
+  local-dir: docs
+  repo: onbns/onbns.com
+  skip-cleanup: true
+  github-token: $GITHUB_TOKEN
+  keep-history: true
+  on:
+    branch: master
+  target-branch: master
+  name: BNS Travis Helper
+  email: team@onbns.com
