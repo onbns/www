@@ -4,8 +4,13 @@
  font-family: 'Open Sans', sans-serif;
 }
 body {
- padding-top: 70px;
+ background: black;
+ ::selection {
+  background: black;
+  color: white;
+ }
+ 
  @media (max-width: 768px) {
-  padding-top: 90px;
+  // padding-top: 90px;
  }
 }
