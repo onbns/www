@@ -7,6 +7,11 @@ import Block from './block';
 import Footer from '../footer';
 
 class Welcome extends React.Component {
+  componentWillMount() {
+    if(window.location.href.includes('cn.onbns')){
+      this.context.router.history.push(`/cn`);
+    }
+  }
   render() {
     return (
      <div className='welcome-page'>
