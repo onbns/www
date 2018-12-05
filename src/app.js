@@ -4,7 +4,6 @@ import { HashRouter, Route, Switch } from 'react-router-dom';
 import { Provider } from 'mobx-react';
 
 import Landing from './components/welcome';
-import Header from './components/header';
 import SignupWithEmail from './components/auth/SignupWithEmail';
 import stores from './stores';
 import './index.scss';

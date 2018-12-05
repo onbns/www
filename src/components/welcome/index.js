@@ -1,30 +1,41 @@
 import React from 'react';
+import PropTypes from 'prop-types';
+
 import './style.scss';
 import Jumbotron from './jumbotron';
 import Block from './block';
+import Footer from '../footer';
 
-export default class Welcome extends React.Component {
+class Welcome extends React.Component {
   render() {
     return (
      <div className='welcome-page'>
       <Jumbotron />
       <Block 
-        title='check'
-        intro={`Blockchain is the new internet infrastructur that traditional endpoint checking service cannot statisfy anymore. Monitor the status of the blockchain height, web3 sepcific methods so you can be confident the service is available.`}
-        img='check'
+        title='ping node'
+        intro={`Designed accurately for monitoring the Blockchain services which traditional ping service cannot statisfy anymore. Every blockchain node service should have deserved a better monitoring service.`}
+        img='pingnode'
         action={{
-          msg: `free to check`,
-
+          msg: `ping your node`,
+          fnc: () => this.context.router.history.push(`/pingnode`)
         }}
       />
-      <Block 
+      <Block
         title='network'
-        intro={`We host full node for you, so you don't need to worry about maintaining and scaling the full node. Support smart contract service such as Ethereum, NEO, Vechain, and more.`}
+        intro={`We host blockchain full node and make it infinitely scalable, secure and reliable, so you can have access to blockchain services immediately.`}
         img='network'
         action={{
-          msg: `coming soon`
+          msg: `How it works`,
+          fnc: () => this.context.router.history.push(`/network`)
         }}
       />
+      <Footer />
    </div>)
   }
 }
+
+Welcome.contextTypes = {
+  router: PropTypes.object
+}
+
+export default Welcome;
