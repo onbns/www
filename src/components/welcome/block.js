@@ -9,9 +9,9 @@ const Block = ({title='title', intro=`${placeholder}`, img='/histogram', action=
     <div className='intro'>
       {intro}
     </div>
-    <div className='action' onClick={action.fnc}>
+    {/* <div className='action' onClick={action.fnc}>
       {action.msg}
-    </div>
+    </div> */}
     </div>
     <div className='child'>
     <img src={`assets/landing/${img}.png`}/>
