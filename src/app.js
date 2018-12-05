@@ -17,7 +17,7 @@ ReactDOM.render(
   <HashRouter hashType="noslash">
     <div>
       <Switch>
-        <Route exact path="/" component= {Landing} />
+        <Route exact path="/" component= {CNLanding} />
         <Route exact path="/cn" component= {CNLanding} />
         <Route exact path="/pingnode" component= {PingNode} />
       </Switch>
