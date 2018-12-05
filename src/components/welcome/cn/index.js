@@ -13,7 +13,7 @@ class Welcome extends React.Component {
       <Jumbotron />
       <Block 
         title='节点监控'
-        intro={`传统监控服务无法满足监控区块链节点。我们相信「每个区块链节点服务都应该得到更好的监控服务。」"`}
+        intro={`传统监控服务无法满足区块链节点的监控。我们相信「每个区块链节点服务都应该得到更好的监控服务。」"`}
         img='pingnode'
         action={{
           msg: `ping your node`,
@@ -22,7 +22,7 @@ class Welcome extends React.Component {
       />
       <Block
         title='全节点网络'
-        intro={`我们托管区块链全节点，使其具有无限可扩展性，安全性和可靠性，以便您可以使用访问区块链服务。`}
+        intro={`我们托管区块链全节点，使其具有无限可扩展性，安全性和可靠性，无需任何烦恼就可立即使用区块链服务。`}
         img='network'
         action={{
           msg: `How it works`,
