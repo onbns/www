@@ -1,9 +1,9 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
 
-import './style.scss';
+import '../style.scss';
 
-class Footer extends React.Component {
+class CNFooter extends React.Component {
   render() {
     return (
       [<div key='1' className='footer'>
@@ -35,30 +35,31 @@ class Footer extends React.Component {
   }
 }
 
-export default Footer;
+
+export default CNFooter;
 
 const data = [{
-  module: 'Company',
+  module: '公司',
   list:[{
-    title: 'Contact',
+    title: '联系',
     outer_link: 'mailto:team@onbns.com?subject=Hi%20from%20BNS%20landing%20page&body=hi%2C'
   },{
-    title: 'Status',
+    title: '状态',
     link: '/status'
   },{
-    title: 'About',
+    title: '关于',
     outer_link: 'https://www.linkedin.com/company/onbns'
   },{
-    title: 'We are hiring',
+    title: '招聘',
     outer_link: 'https://angel.co/blockchain-node-service'
   }]
 },{
-  module: 'Products',
+  module: '產品',
   list:[{
-    title: 'Ping Node',
+    title: '节点监控',
     link: '/'
   },{
-    title: 'Network',
+    title: '全节点网络',
     link: '/'
   }]
 },{

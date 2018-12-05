@@ -1,4 +1,14 @@
 .welcome-page {
+ &.cn {
+  .block {
+   font-size: 120%;
+  }
+  .jumbotron {
+   p {
+    font-size: 1rem;
+   }
+  }
+ }
  .jumbotron {
   background: black;
   border-radius: 0px;
