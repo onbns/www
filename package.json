@@ -10,9 +10,7 @@
     "start": "serve ../docs",
     "dev": "webpack-dev-server --open --config webpack.dev.js",
     "build": "rm -rf ../docs && webpack --config webpack.prod.js",
-    "create-cname": "touch ./docs/CNAME && echo \"www.onbns.com\" >> ./docs/CNAME",
-    "create-readme": "cp ./readme-deploy.md ./docs/readme.md",
-    "travis": "npm run build && npm run create-cname && npm run create-readme"
+    "travis": "npm run lint:fix"
   },
   "author": "BNS Team <team@onbns.com>",
   "lint-staged": {
