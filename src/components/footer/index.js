@@ -6,14 +6,14 @@ import './style.scss';
 class Footer extends React.Component {
   render() {
     return (
-      [<div className='footer'>
+      [<div key='1' className='footer'>
       <div className='container wrapper'>
         <div className='row'>
           {this.renderModules(data)}
         </div>  
       </div>
       </div>,
-      <div className='signature'>Blockchain Node Service Inc. (BNS) in San Francisco</div>])
+      <div key='2' className='signature'>Blockchain Node Service Inc. (BNS) in San Francisco</div>])
   }
   renderModules(modules){
     return modules.map(m=>(
