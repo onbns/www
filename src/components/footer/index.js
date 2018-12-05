@@ -1,6 +1,5 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
-import Signature from './signature';
 
 import './style.scss';
 
@@ -14,7 +13,7 @@ class Footer extends React.Component {
         </div>  
       </div>
       </div>,
-      <Signature/>])
+      <div className='signature'>Blockchain Node Service Inc. (BNS) in San Francisco</div>])
   }
   renderModules(modules){
     return modules.map(m=>(
