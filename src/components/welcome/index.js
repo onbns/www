@@ -1,5 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import netlifyIdentity from 'netlify-identity-widget'
 
 import './style.scss';
 import Jumbotron from './jumbotron';

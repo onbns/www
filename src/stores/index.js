@@ -1,5 +1,7 @@
 import themeStore from './theme';
+import userStore from './user';
 
 export default {
-  themeStore: new themeStore
+  themeStore: new themeStore,
+  userStore: new userStore
 }
