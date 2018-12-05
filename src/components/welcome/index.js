@@ -13,7 +13,7 @@ class Welcome extends React.Component {
       <Jumbotron />
       <Block 
         title='ping node'
-        intro={`Designed accurately for monitoring the Blockchain services which traditional ping service cannot statisfy anymore. Every blockchain node service should have deserved a better monitoring service.`}
+        intro={`Design accurately for monitoring the Blockchain services which traditional ping service cannot satisfy at all. We believe "Every blockchain node service should have deserved a better monitoring service."`}
         img='pingnode'
         action={{
           msg: `ping your node`,
@@ -22,7 +22,7 @@ class Welcome extends React.Component {
       />
       <Block
         title='network'
-        intro={`We host blockchain full node and make it infinitely scalable, secure and reliable, so you can have access to blockchain services immediately.`}
+        intro={`We host blockchain full node and make it infinitely scalable, secure and reliable so that you can have access to blockchain services immediately.`}
         img='network'
         action={{
           msg: `How it works`,
