@@ -56,10 +56,10 @@ const data = [{
   module: 'Products',
   list:[{
     title: 'Ping Node',
-    link: '/'
+    link: '/ping'
   },{
-    title: 'Network',
-    link: '/'
+    title: 'Full Node',
+    link: '/full'
   }]
 },{
   module: 'Follow',

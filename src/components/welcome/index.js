@@ -26,12 +26,12 @@ class Welcome extends React.Component {
         }}
       />
       <Block
-        title='network'
+        title='full node'
         intro={`We host blockchain full node and make it infinitely scalable, secure and reliable so that you can have access to blockchain services immediately.`}
-        img='network'
+        img='fullnode'
         action={{
           msg: `How it works`,
-          fnc: () => this.context.router.history.push(`/network`)
+          fnc: () => this.context.router.history.push(`/fullnode`)
         }}
       />
       <Footer />

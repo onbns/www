@@ -23,10 +23,10 @@ class Welcome extends React.Component {
       <Block
         title='全节点网络'
         intro={`我们托管区块链全节点，使其具有无限可扩展性，安全性和可靠性，无需任何烦恼就可立即使用区块链服务。`}
-        img='network'
+        img='fullnode'
         action={{
           msg: `How it works`,
-          fnc: () => this.context.router.history.push(`/network`)
+          fnc: () => this.context.router.history.push(`/fullnode`)
         }}
       />
       <CNFooter />
