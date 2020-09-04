@@ -68,7 +68,7 @@
     "husky": "^0.14.3",
     "image-webpack-loader": "^4.5.0",
     "lint-staged": "^7.2.0",
-    "node-sass": "^4.9.2",
+    "node-sass": "^4.13.1",
     "sass-loader": "^6.0.6",
     "serve": "^6.1.0",
     "style-loader": "^0.20.1",
